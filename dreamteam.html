@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	    <script>
+        function change_css(){
+            document.getElementById('large-button').style.cssText = ' content: url(transparent_button_pressed.png)';
+        }
+    </script>
+<script defer type="text/javascript" src="jquery.min.js"></script>
+<link rel="stylesheet" href="landingpage1.css">
+<title>Page Title</title>
+
+
+
+
+
+</head>
+<body>
+<audio id="sound1" src="liljon-what2.mp3" preload="auto"></audio>
+<div class="site-container" id="site-container">
+<div class="searchField">
+<div class="container">
+<input type="text" name="search" id="searchTxt" class="inputter" placeholder="Who you wanna offend?">
+
+<div style="width: 190px; margin: 0 auto 25px auto;">
+<div class="circle large-button-background" style="background-color:#99ff99;"></div>
+<div class="large-button" onclick="document.getElementById('sound1').play();change_css();"></div>
+<div class="large-button-shadow"></div>
+</div>
+
+<div class="background"></div>
+
+
+
+</body>
+</html>
